@@ -1,0 +1,22 @@
+{
+  "name": "periodictable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production ./index.js -o ./dist/index.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tweenjs/tween.js": "^17.3.0",
+    "three": "^0.102.1",
+    "three-css3drenderer": "^1.0.1",
+    "three-trackballcontrols": "0.0.7"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
