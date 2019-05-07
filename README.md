@@ -12,40 +12,40 @@ const btns = document.querySelectorAll('button')
 const container = document.querySelector('#container')
 
 const periodictable = new Periodictable({
-container,
-positions,
-elements
+  container,
+  positions,
+  elements
 })
 
 function setActiveBtn(el) {
-btns.forEach(btn => {
-  btn.className = 'btn'
-})
-el.className = 'btn active'
+  btns.forEach(btn => {
+    btn.className = 'btn'
+  })
+  el.className = 'btn active'
 }
 
 tableBtn.addEventListener('click', function () {
-setActiveBtn(this)
-periodictable.changeLayout('table')
+  setActiveBtn(this)
+  periodictable.changeLayout('table')
 }, false)
 planeBtn.addEventListener('click', function () {
-setActiveBtn(this)
-periodictable.changeLayout('plane')
+  setActiveBtn(this)
+  periodictable.changeLayout('plane')
 }, false)
 gridBtn.addEventListener('click', function () {
-setActiveBtn(this)
-periodictable.changeLayout('grid')
+  setActiveBtn(this)
+  periodictable.changeLayout('grid')
 }, false)
 helixBtn.addEventListener('click', function () {
-setActiveBtn(this)
-periodictable.changeLayout('helix')
+  setActiveBtn(this)
+  periodictable.changeLayout('helix')
 }, false)
 sphereBtn.addEventListener('click', function () {
-setActiveBtn(this)
-periodictable.changeLayout('sphere')
+  setActiveBtn(this)
+  periodictable.changeLayout('sphere')
 }, false)
 sphere2Btn.addEventListener('click', function () {
-setActiveBtn(this)
-periodictable.changeLayout('sphere2')
+  setActiveBtn(this)
+  periodictable.changeLayout('sphere2')
 }, false)
 ```
